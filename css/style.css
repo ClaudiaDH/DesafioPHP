@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+#teste{
+    margin: 0px;
+    padding: 0px;
+}
+#nome{
+    margin: 0px;
+    padding: 0px;
+}
+#categoria{
+    margin: 0px;
+    padding: 0px;
+}
+#preco{
+    margin: 0px;
+    padding: 0px;
+}
+
+#cx-principal{
+    width: 100%;
+}
+
+#cx-esquerda{
+
+    background-color: lightpink;
+    padding-top: 55px;
+    padding-left: 25px;
+    border:1px solid black;
+    
+
+}
+.cor-nome-categ-preco{
+    background-color: lightgreen;
+    width: 100%;
+}
+
+.produtos-index{
+    line-height: 30px;
+    background-color: chocolate;
+    margin-top: 20px;
+}
+#categ-index{
+    background-color: lightseagreen;
+    
+    line-height: 30px;
+    margin-top: 20px;
+
+}
+#preco-index{
+    background-color: cornflowerblue;
+    line-height: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+#links-index{
+    color: black;
+    text-decoration: underline;
+}
+#links-index:hover{
+    color: lightgray;
+}
+
+#cx-direita{
+
+    background-color: blueviolet;
+    border:1px solid black;
+    height: 800px;
+
+}
+
+#cx-formulario{
+    display: flex;
+    flex-direction: column;
+    padding:50px 20px 50px 20px;
+}
+
+
+#cx-btn{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#btn-form{
+    width: 100px;
+    padding:10px 20px;
+    border-radius: 5px;
+}
+#cx-main{
+    background-color: green;
+    padding-top: 40px;
+    border-radius: 20px;
+    margin-top: 40px;
+    height: 500px;
+}
+#btn-voltar{
+    background-color: gray;
+    padding:10px;
+    color: black;
+    text-transform: none;
+    border-radius: 5px;
+   
+}
+#btn-voltar:hover{
+    background-color: white;
+    text-decoration: none;
+}
+#cx-principal-produtos{
+    padding-top: 40px;
+
+    
+}
+#cx-produtos-img{
+    background-color: azure;
+    border:1px solid black;
+   
+
+}
+
+#cx-produtos-info{
+    background-color: lightgreen;
+    border:1px solid black;
+    padding-bottom: 50px;
+}
+
+#tabela-produtos{
+    width: 70%;
+}
+#categoria ul li{
+    
+    list-style: none;
+}
+#preco ul li{
+    list-style: none;
+}
+#nome ul li{
+    list-style: none;
+}
+.sub-produtos{
+    color:rgb(58, 58, 58);
+    font-size: 1.5rem;
+}
+.desc{
+    color: rgb(41, 41, 41);
+    font-size: 1.6rem;
+}
+#tabela{
+    
+    width: 60%;
+    height: 90px;
+    margin-top: 20px;;
+    
+}
+table tr th{
+   padding: 10px 20px 10px 20px;
+   width: 100%;;
+   border: 2px solid black;
+   
+}
+table tr td{
+    padding: 10px 20px 10px 15px;
+    width: 100%;
+    border: 2px solid black;
+    text-align: center;
+ }
